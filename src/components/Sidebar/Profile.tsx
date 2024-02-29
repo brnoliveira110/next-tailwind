@@ -1,6 +1,7 @@
 import { LogOut } from 'lucide-react'
 import Image from 'next/image'
 import React from 'react'
+import { Button } from '../Button'
 
 export const Profile = () => {
     return (
@@ -16,9 +17,11 @@ export const Profile = () => {
                 </span>
                 <span className="text-sm truncate text-zinc-500" title="caio@email.com.br">caio@email.com.br</span>
             </div>
-            <button type="button" className="ml-auto rounded-md p-2 houver:bg-zinc-50">
-                <LogOut className="h-5 w-5 text-zinc-500" />
-            </button>
+            <div className='ml-auto'>
+                <Button type="button" variant='ghost'>
+                    <LogOut className="h-5 w-5 text-zinc-500" />
+                </Button>
+            </div>
         </div>
     )
 }
