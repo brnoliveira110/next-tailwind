@@ -12,10 +12,10 @@ export const Profile = () => {
                 alt="imagem do perfil" />
 
             <div className="flex flex-col truncate">
-                <span className="text-sm font-semibold text-zinc-700">
+                <span className="text-sm font-semibold text-zinc-700 dark:text-zinc-100">
                     Caio Santana
                 </span>
-                <span className="text-sm truncate text-zinc-500" title="caio@email.com.br">caio@email.com.br</span>
+                <span className="text-sm truncate text-zinc-500 dark:text-zinc-400" title="caio@email.com.br">caio@email.com.br</span>
             </div>
             <div className='ml-auto'>
                 <Button type="button" variant='ghost'>
